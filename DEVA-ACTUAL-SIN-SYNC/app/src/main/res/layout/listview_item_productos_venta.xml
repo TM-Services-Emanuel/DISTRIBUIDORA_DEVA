@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/id_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/color173545"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/divider84"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView120"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="SUPERMERC."
+                    android:textColor="@color/color173545"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/id_precio_venta_supermercado"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+                <View
+                    android:id="@+id/divider25"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider77"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="MINORISTA"
+                    android:textColor="@color/color173545"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/id_precio_venta_minorista"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <View
+                    android:id="@+id/divider81"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider79"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="MAYORISTA"
+                    android:textColor="@color/color173545"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/id_precio_venta_mayorista"
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+                <View
+                    android:id="@+id/divider82"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider80"
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_imp_p_venta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
